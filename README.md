@@ -85,6 +85,10 @@ quando a aplicação é encerrada.
 Ao iniciar novamente, a aplicação carrega
 os dez chamados fictícios definidos no código.
 
+## Evidências dos testes
+
+Dentro do repositório há uma pasta evidencias_testes que contêm um arquivo PDF com as evidências dos testes realizados. 
+
 ## Como executar
 
 1. Clone o repositório.
