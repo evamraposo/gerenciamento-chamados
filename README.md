@@ -37,8 +37,7 @@ e apresentar um resumo dos atendimentos.
 
 ## Análise técnica
 
-### Como o Spring Boot recebe e processa
-requisições HTTP?
+### Como o Spring Boot recebe e processa requisições HTTP?
 
 O Spring Boot utiliza o Spring MVC para receber
 e direcionar as requisições HTTP aos métodos
@@ -60,8 +59,7 @@ as operações sobre a coleção de chamados,
 pois o projeto não utiliza uma camada Service
 ou Repository.
 
-### Como ocorre a conversão entre objetos
-Java e JSON?
+### Como ocorre a conversão entre objetos Java e JSON?
 
 O Spring Boot utiliza a biblioteca Jackson para
 realizar a conversão automática entre objetos
@@ -75,8 +73,7 @@ Quando o Controller retorna um objeto Java,
 o Jackson realiza a serialização, transformando
 esse objeto em JSON para a resposta HTTP.
 
-### Por que os chamados não permanecem
-armazenados após reiniciar a aplicação?
+### Por que os chamados não permanecem armazenados após reiniciar a aplicação?
 
 Os chamados são armazenados em uma coleção
 Java na memória RAM da aplicação.
